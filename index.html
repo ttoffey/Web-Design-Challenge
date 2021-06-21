@@ -4,7 +4,7 @@
 <head>
   <title>Summary: Latitude</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, intial_scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Bring in our bootstrap stylesheet -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -12,117 +12,83 @@
 </head>
 
 <body>
-
-  <div class="container">
-    <div class="row">
-      <div class="col-md-2">
-        <h1 class="a"><strong>Latitude</strong></h1>
-      </div>
-      <div class="col-md-7"></div>
-
-      <div class="col-md-3">
-        <!-- <div class="row">
-          <a class="dropdown-item active" href="#">Plots&nbsp;&nbsp;</a>
-          <a class="dropdown-item active" href="#">Comparison&nbsp;&nbsp;</a>
-          <a class="dropdown-item active" href="#">Data</a>
-        </div> -->
-
-        <div class="dropdown">
-          <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            Plots</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
-          </div>
-          <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            Comparison</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
-          </div>
-          <a class="btn btn-primary dropdown-toggle" href="#" role="button" id="dropdownMenuLink"
-            data-bs-toggle="dropdown" aria-expanded="false">
-            Data</a>
-          <div class="dropdown-menu">
-            <a class="dropdown-item" href="#">Link 1</a>
-            <a class="dropdown-item" href="#">Link 2</a>
-            <a class="dropdown-item" href="#">Link 3</a>
-          </div>
-
-        </div>
-      </div>
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <a class="navbar-brand" href="#">Latitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Plots</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Comparison</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Data</a>
+        </li>
+      </ul>
     </div>
-
-
-
-
-
-
-
-
-
-    <br>
-    <br>
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-5">
-        <h1 style="font-size: 150%; color:cadetblue; text-align: left"><strong>Summary:
-            Latitude vs. X</strong></h1>
-      </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <h1 style="font-size: 150%; color:cadetblue; text-align: left">
-          <strong>Visualizations</strong>
-        </h1>
-      </div>
-      <div class="col-md-2"></div>
+  </nav>
+  <br>
+ 
+  <!-- <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-5">
+      <h1 style="font-size: 150%; color:cadetblue; text-align: left"><strong>Summary:
+          Latitude vs. X</strong></h1>
     </div>
-
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-5">
-        <hr>
-      </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+      <h1 style="font-size: 150%; color:cadetblue; text-align: left">
+        <strong>Visualizations</strong>
+      </h1>
     </div>
-    <br>
-    <div class="row">
-      <div class="col-md-1"></div>
-      <div class="col-md-2">
-        <a href="fig1.png"><img src="Images/Fig1.png" alt="Fig1" class="img-fluid"></a>
-      </div>
-      <div class="col-md-3">
-        <p>The purpose of this Project was to analye how weather changes as you get closer to
-          the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a
-          dataset on over 500 cities.
-          <br>
-          <br>
-
-          After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
-          Factors
-          we looed at included: temperature, cloudiness, wind speed and humidity. This site provides the source data
-          and
-          visualizations created as part of the analaysis, as well as explanations and descriptions of any trends
-          and
-          correlations witnessed.
-        </p>
-      </div>
-      <div class="row">
-        <div class="col-md-2"></div>
-      </div>
-      <div class="col-md-1"></div>
-      <div class="col-md-3">
-        <!-- <h1 style="font-size: 150%; color:cadetblue; text-align: left">
-          <strong>Visualizations</strong> -->
-        </h1>
-      </div>
-      <div class="col-md-2"></div>
-    </div>
-
+    <div class="col-md-2"></div>
   </div>
+
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-5">
+      <hr>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-2">
+      <a href="fig1.png"><img src="Images/Fig1.png" alt="Fig1" class="img-fluid"></a>
+    </div>
+    <div class="col-md-3">
+      <p>The purpose of this Project was to analye how weather changes as you get closer to
+        the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a
+        dataset on over 500 cities.
+        <br>
+        <br>
+
+        After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude.
+        Factors
+        we looed at included: temperature, cloudiness, wind speed and humidity. This site provides the source data
+        and
+        visualizations created as part of the analaysis, as well as explanations and descriptions of any trends
+        and
+        correlations witnessed.
+      </p>
+    </div>
+    <div class="row">
+      <div class="col-md-2"></div>
+    </div>
+    <div class="col-md-1"></div>
+    <div class="col-md-3">
+        <h1 style="font-size: 150%; color:cadetblue; text-align: left">
+          <strong>Visualizations</strong> -->
+      <!-- </h1>
+    </div>
+    <div class="col-md-2"></div>
+  </div>
+
+  </div> -->
 
 
 
