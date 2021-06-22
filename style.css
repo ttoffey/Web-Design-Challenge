@@ -1,18 +1,57 @@
-h1.a {
-    display: inline-block;
-    font-size: 120%; 
+
+.navbar-brand {
+    font-size: 120%;
     font-family:'Times New Roman', Times, serif;
-    background-color:cadetblue; 
-    color:white; 
-    width: 100px;
-    height: 40px;
-    padding: 5px;
-    text-align:center;
-  }
-p.a {
-    display: inline-block;
-    font-size: 50%;
+    color: azure;
+    background-color:lightseagreen;
+    
+}  
+
+.nav-link {
+  font-size: 75%;
+
 }
+
+p {
+    font-size: 60%;
+}
+
+.tablev {
+  height: 80%;
+  width: 60%;
+  background-color: white;
+  border-collapse: collapse;
+}
+
+table {
+  background-color:white; 
+  
+
+}
+
+td {
+  font-size: 90%;
+}
+
+.jumbotron {
+    background-color: whitesmoke;
+    background-size:cover;
+   
+
+}
+
+tr {
+  font-size: 90%;
+  font-family:'Times New Roman', Times, serif;
+}
+
+th {
+  color: lightseagreen;
+  font-size: 100%;
+  font-family:'Times New Roman', Times, serif;
+}
+
+
 
 /* li {
     display: inline,
