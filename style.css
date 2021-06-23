@@ -2,7 +2,7 @@
 .navbar-brand {
     font-size: 120%;
     font-family:'Times New Roman', Times, serif;
-    color: azure;
+    color: white !important;
     background-color:lightseagreen;
     
 }  
@@ -14,69 +14,33 @@
 
 p {
     font-size: 60%;
+    text-align: justify;
+    text-justify: inter-word;
+    float-left
+    
 }
 
-.tablev {
-  height: 80%;
-  width: 60%;
-  background-color: white;
-  border-collapse: collapse;
+.px-2 {
+  padding-left: ($spacer * .5) !important;
+  padding-right: ($spacer * .5) !important;
 }
 
-table {
-  background-color:white; 
-  
-
+.div1 {
+  background_color: white;
 }
 
-td {
-  font-size: 90%;
-}
 
 .jumbotron {
-    background-color: whitesmoke;
-    background-size:cover;
-   
-
+    background-color: lightgray;
 }
 
-tr {
-  font-size: 90%;
-  font-family:'Times New Roman', Times, serif;
-}
 
-th {
+h3 {
   color: lightseagreen;
-  font-size: 100%;
+  font-size: 120%;
   font-family:'Times New Roman', Times, serif;
+
 }
 
 
 
-/* li {
-    display: inline,
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  /* Change the link color to #111 (black) on hover */
-  /* li a:hover {
-    background-color: #111;
-  } */ 
