@@ -48,11 +48,6 @@ p {
 
 } 
 
-.active, .a:hover {
-  background-color: #666;
-  color:white;
-}
-}
 
 .white-box-small {
   height: fit-content; 
@@ -73,9 +68,7 @@ p {
   font-size: small;
 }
 
-/* .p {
-  padding-left: 5px !important;
-} */
+
 
 .div1 {
   background_color: white;
