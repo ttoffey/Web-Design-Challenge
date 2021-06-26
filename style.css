@@ -18,32 +18,32 @@
 
 }
 
-/* p {
+p {
     font-size: 85%;
     text-align: justify;
     text-justify:justify;
     float:inline-start; 
     
-} */
+}
 
 .white-box {
   background-color:white;
   color: black;
-  font-size:small;
+  /* font-size:small; */
   height: 100%;
-  max-width: 90%;
+  max-width: max-content;
   /* text-justify: justify; */
   text-align: justify;
   padding: 5px 15px 5px 15px;
 
 }
 
-.white_box_a {
-  background-color:white;
+.white-box-a {
+  background-color:white !important;
   color: black;
-  font-size: 90%;
-  height: fit-content !important;
-  max-width: 90%;
+  /* font-size: 90%; */
+  height: 100%;
+  max-width: max-content;
   
   padding: 5px 15px 5px 15px;
 
@@ -51,8 +51,8 @@
 
 
 .white-box-small {
-  height: auto; 
-  max-width: auto;
+  height: max-content; 
+  max-width: max-content;
   background-color:white !important;
   color: black;
   padding: 10px 15px 10px 15px;
