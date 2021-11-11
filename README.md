@@ -2,17 +2,6 @@
 
 Create a Web Visualization Dashboard utilizing the weather data and charts created in the Python API (weather.py) project to show the effect of latitude on weather.
 
-# Requirements:
-1. Create a new repository for this project called `Web-Design-Challenge`. **Do not add this homework to an existing repository**.
-
-2. Clone the new repository to your computer.
-
-3. Inside your local git repository, add your **html** files, as well as your **static** folder. Your `index.html` should be the landing page that the user first sees. DO NOT keep your files inside the Starter Files folder. Copy them out and put them directly in your repository. `index.html` must be at the top level of your repository (not in any subdirectory)
-
-4. Push the above changes to GitHub or GitLab.
-
-5. Deploy to GitHub Pages.
-
 ### Website Requirements
 
 The website must consist of 7 pages total, including:
@@ -49,7 +38,5 @@ CSS
 Python
 Pandas
 
-## Problems Encountered
-Still working on resizing issues.
 
 
